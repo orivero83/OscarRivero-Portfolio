@@ -967,7 +967,7 @@ footer {
 
 
 
-@media screen and (min-width: 375px) and (max-width: 426px) {
+@media screen and (max-width: 426px) {
   body {
         width: 160%;
         margin: 0;
@@ -994,9 +994,6 @@ footer {
         justify-content: center;
     }
 
-    p{
-
-    }
  
     .title-text {
         width: 100%;
@@ -1006,8 +1003,148 @@ footer {
     }
 
 
+/* -------------------------------- ABOUT ME -------------------------------- */
+
+.lenguajes-giran{
+    width: 100%;
+}
+
+.ul{
+    height: 100%;
+}
+
+pre{
+    font-size: 0.68em;
+}
+
+
+/* ------------------------------- my projects ------------------------------ */
+
+.portfolio{
+height: 160vh;
+}
+
+/* ------------------------------- contact me ------------------------------- */
+
+.body-body{
+    height: 120vh;
+}
+
+.ul-iconos{
+    width: 100%;
+    margin-left: 15px;
+}
+.li-iconos{
+    width: 90px;
+}
+
+
+.contact-container {
+    height: 25.2vh;
+    width: 102%;
+}
+
+
 
 }
+
+
+
+
+
+/* ----------------------------- MEDIA Query 375 ---------------------------- */
+
+@media screen and (max-width: 376px) {
+    body {
+          width: 175%;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+  
+      header{
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+      }
+  
+      .section-media{
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+      }
+  
+   
+      .title-text {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          font-size: 2.8em;
+      }
+  
+  
+  /* -------------------------------- ABOUT ME -------------------------------- */
+  .about{
+    height: 115vh;
+  }
+  .lenguajes-giran{
+      width: 95%;
+      height: 95%;
+  }
+  
+  .ul{
+      height: 100%;
+  }
+
+
+  
+  pre{
+      font-size: 0.62em;
+  }
+  
+  /* ------------------------------- testimonios ------------------------------ */
+
+  .body-3d{
+    height: 130vh;
+  }
+  
+  /* ------------------------------- my projects ------------------------------ */
+  
+  .portfolio{
+  height: 160vh;
+  }
+  
+  /* ------------------------------- contact me ------------------------------- */
+  
+  .body-body{
+      height: 120vh;
+  }
+  
+  .ul-iconos{
+      width: 100%;
+      margin-left: 0.1px;
+  }
+  .li-iconos{
+      width: 85px;
+  }
+  
+  
+  .contact-container {
+      height: 25.2vh;
+      width: 102%;
+  }
+  
+  
+  
+  }
+  
 
 
 /* -------------------------------- MEDIA 320 ------------------------------- */
@@ -1119,9 +1256,7 @@ footer {
 
     /* ------------------------------- testimonios ------------------------------ */
 
-    .body-3d {}
-
-
+    
     /* ------------------------------- My proyects ------------------------------ */
     .portfolio {
         height: 160vh;
