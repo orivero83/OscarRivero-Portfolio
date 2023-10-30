@@ -1,0 +1,1141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+
+body {
+    background-color: #f0f8ff;
+}
+
+
+
+/* --------------------------------- header --------------------------------- */
+
+.contenedor-menu-tlf {
+    display: none;
+}
+
+.menu-tlf-img {
+    background-color: transparent;
+    width: 2em;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.menu-tlf-img:hover {
+    cursor: pointer;
+}
+
+.menu-tlf {
+    display: none;
+}
+
+
+
+.title-text {
+    margin: 20px;
+    font-size: 3em;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+/* ------------------------------ BTN translate ----------------------------- */
+
+.btn-header {
+    margin: 20px;
+    display: flex;
+    max-width: 100%;
+    height: 120px;
+}
+
+
+.btn-translate:hover {
+    color: black;
+}
+
+.api-google-translate {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: none;
+    border: 5px solid rgb(251, 247, 247);
+    border-radius: 15px;
+}
+
+/* ---------------------------- FIN BTN Translate --------------------------- */
+
+
+/* -------------------------------- izquierdo ------------------------------- */
+
+
+
+/* ------------------------------- HOME button ------------------------------ */
+
+.floatingButton {
+    display: none;
+    background-color: black;
+    margin-top: 45px;
+    text-align: center;
+    width: 160px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
+        0 0 10px #f0f8ff;
+}
+
+.floatingButton:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------- FIN HOME BUTON ----------------------------- */
+
+
+
+/* Estilos para el contenedor */
+.container {
+    margin-left: 25px;
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.sidebar {
+    height: 90vh;
+    margin-right: 100px;
+}
+
+.sidebar .ul-izquierdo {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 180px;
+
+}
+
+.sidebar .li-izquierdo {
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px white;
+    border-radius: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-10px);
+
+    }
+}
+
+.sidebar .a-izquierdo {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .a-izquierdo:hover {
+    color: white;
+}
+
+.sidebar .li-izquierdo:hover {
+    background-color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* --------------------------------- derecho -------------------------------- */
+
+.nav-derecho {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-nav-derecho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60%;
+    font-size: 2.5em;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Tangerine', 'sans-serif';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+}
+
+p:before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    transform: skewX(45deg) translateX(150px);
+    transition: 0.5s;
+}
+
+p:hover:before {
+    width: 70px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: skewX(45deg) translateX(250px);
+    transition: 0.5s;
+    transform: skewX(45deg) translateX(-250px);
+}
+
+
+.contenedor-btn {
+    height: 45px;
+    width: 200px;
+    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px white;
+}
+
+.contenedor-btn:hover {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px white;
+}
+
+.contenedor-btn a {
+    color: #8a8181;
+    text-decoration: none;
+}
+
+.contenedor-btn a:hover {
+    color: black;
+}
+
+
+
+
+/* ----------------------------------- img ---------------------------------- */
+
+.img-nav-derecho {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    transition: top 0.5s, z-index 0s, transform 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s;
+}
+
+.img-nav-derecho:before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    transform: skewX(45deg) translateX(370px);
+    transition: 0.5s;
+}
+
+.img-nav-derecho:hover:before {
+    background: rgba(255, 255, 255, 0.5);
+    transform: skewX(45deg) translateX(-680px);
+}
+
+.img-nav-derecho img {
+    max-width: 45%;
+    min-width: 400px;
+}
+
+
+/* --------------------------------- fin HEADER -------------------------------- */
+
+
+/* ---------------------------------- ABOUT --------------------------------- */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./bg2Original.jpg);
+}
+
+
+
+
+/* ----------------------------- lenguajes giran ---------------------------- */
+
+
+.ul {
+
+    align-items: center;
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ul .li {
+    list-style: none;
+}
+
+.ul .li {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.ul .li .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.ul .li:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.ul .li:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: .5s;
+    z-index: 2;
+}
+
+.ul .li:hover:before {
+    top: 0;
+}
+
+.lenguajes-giran:hover {
+    color: white;
+}
+
+
+/* --------------------------- FIN LENGUAJES GIRAN -------------------------- */
+
+.about-container {
+    height: 70%;
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+
+.about-title {
+    height: 150px;
+    font-size: 2.6em;
+    line-height: 1em;
+    color: white;
+    font-family: 'Tangerine', 'sans-serif';
+}
+
+.about-title:hover {
+    text-shadow: black 7px 7px 2px;
+}
+
+.about-text {
+    color: white;
+    font-family: 'Poppins';
+    line-height: 1.5em;
+    font-size: 1.32em;
+}
+
+.about-text:hover {
+    text-shadow: black 7px 7px 2px;
+}
+
+.izq {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.der {
+    width: 60%;
+}
+
+/* -------------------------------- FIN ABOUT ------------------------------- */
+
+/* ------------------------------ Testimonio 3d ----------------------------- */
+
+.testimonio-tlf {
+    display: none;
+}
+
+
+
+
+.body-3d {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-3d {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.slider {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tangerine', 'sans-serif';
+    border: 5px inset black;
+    border-radius: 15px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 50s linear infinite;
+}
+
+
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*240deg)) translateZ(1px);
+}
+
+
+.slider span .img {
+    border: 10px inset black;
+    border-radius: 15px;
+    margin-left: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170%;
+    height: 120%;
+    border-radius: 5%;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.slider span:hover .img {
+    transform: translateY(-30px) scale(1.1);
+}
+
+
+/* -------------------------------- TARjETAS -------------------------------- */
+
+.card {
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px #f0f8ff;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card img {
+    border: 2px solid white;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 70%;
+
+}
+
+.nombre-3d {
+    font-family: Poppins, sans-serif;
+    font-size: 0.3em;
+
+}
+
+.text-3d {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 0.2em;
+
+}
+
+/* -------------------------- BOTONES TESTIMONIO 3d ------------------------- */
+
+
+.btn-common {
+    color: #5d5757;
+    background: #f0f8ff;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+        -5px -5px 10px #f0f8ff;
+    width: 100%;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.btn-common:focus {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #f0f8ff;
+}
+
+.btn-common:hover {
+    font-size: 0.9em;
+    color: black;
+}
+
+
+
+/* ------------------------------FIN Testimonio 3d ----------------------------- */
+
+
+
+
+/* -------------------- PROYECTOS -------------------------------- */
+
+
+.portfolio {
+    height: 100vh;
+    color: white;
+    background: url(./bgPro5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    text-shadow: 0 0 10px black;
+    color: black;
+    font-size: 6em;
+    padding-top: 0.4em;
+    height: 20%;
+    text-align: center;
+    font-family: 'Tangerine', 'sans-serif';
+}
+
+.portfolio-content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 8rem;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.port-img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.port {
+    border: 10px inset rgb(146, 144, 144, 0.2);
+    padding: 25px;
+    background: transparent;
+    border-radius: 0.5rem;
+    transition: 0.5s ease all;
+}
+
+.port:hover {
+    box-shadow: 0px 0px 20px 10px white;
+    transform: scale(1.02) translateY(-6px);
+    cursor: pointer;
+    border: 10px inset white;
+}
+
+.port h5 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.box-icon i {
+    font-size: 40px;
+    color: white;
+    margin: 2px;
+}
+
+
+.box-icon i:hover {
+    box-shadow: 0px 0px 10px 10px white;
+    cursor: pointer;
+    border-radius: 5%;
+    background: transparent;
+
+}
+
+/* ------------------------------ FIN PROYECTOS ----------------------------- */
+
+
+
+
+/* ------------------------------- CONTACT ME ------------------------------- */
+
+.body-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: #f0f8ff;
+}
+
+.login {
+
+    position: relative;
+    width: 380px;
+    padding: 80px 50px 50px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1),
+        -15px -15px 20px #fffb;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login form {
+    position: relative;
+    width: 100%;
+}
+
+.section-section span {
+    width: 100%;
+    font-weight: 300;
+    font-size: 6em;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 40px;
+    font-family: 'Tangerine', 'sans-serif';
+}
+
+.login form .inputBox {
+    position: relative;
+    display: flex;
+}
+
+.login form .inputBox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.login form .inputBox input[type="text"] {
+    width: 100%;
+    padding: 15px 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+
+/* -------------------------------- TEXT-AREA ------------------------------- */
+.inputBox-message {
+    position: relative;
+    display: flex;
+    height: 5em;
+}
+
+.inputBox-message textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.inputBox-message textarea[type="text"] {
+    width: 100%;
+    padding: 15px 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+
+
+
+/* ----------------------------------- btn ---------------------------------- */
+
+
+
+.login form .inputBox input[type="submit"] {
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+        -5px -5px 10px #fff;
+    width: 100%;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.login form .inputBox input[type="submit"]:focus {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+.login .fingerprint p {
+    font-weight: 500;
+}
+
+.message-box {
+    font-size: 1em;
+    color: black;
+}
+
+/* ------------------------- ICONOS QUE SE ESCONDEN ------------------------- */
+
+.contact-container {
+    height: 25.2vh;
+}
+
+.section-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 70%;
+}
+
+.section-contact::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2.8%;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: #f0f8ff;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+
+.ul-iconos {
+    position: relative;
+    display: flex;
+}
+
+.ul-iconos .li-iconos {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+
+.ul-iconos .li-iconos a {
+    position: relative;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* ------------------------------ color: #fff; ------------------------------ */
+    font-size: 2em;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    background: #f0f8ff;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    overflow: hidden;
+    transition: top 0.5s, z-index 0s, transform 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s;
+}
+
+.ul-iconos .li-iconos a:hover {
+    transition-delay: 0s, 0.3s, 0.3s;
+    top: -50px;
+    transform: translateY(50px);
+    z-index: 11;
+}
+
+
+/* ----------------------- FIN ICONOS QUE SE ESCONDEN ----------------------- */
+
+
+/* --------------------------------- FOOTER --------------------------------- */
+
+footer {
+    position: relative;
+    color: black;
+    text-align: center;
+    z-index: 30;
+}
+
+
+
+
+/* ----------------------------- @media queries ----------------------------- */
+@media screen and (max-width: 768px) {
+    .floatingButton {
+        margin-top: 5.8em;
+    }
+
+    .lenguajes-giran {
+        width: 750px;
+    }
+
+    pre {
+        font-size: 12px;
+    }
+
+
+    /* -------------------------------- about me -------------------------------- */
+
+    .about-title {
+        font-size: 2.4em;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .izq {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+
+    /* ------------------------------- testimonios ------------------------------ */
+
+    .container-3d {
+        margin-left: 50px;
+        width: 30%;
+    }
+
+    .slider {
+        width: 150px;
+    }
+
+    .nombre-3d {
+        font-size: 0.3em;
+    }
+
+
+
+
+    /* ------------------------------- my projects ------------------------------ */
+
+    .portfolio {
+        margin: 0;
+        padding: 0;
+    }
+
+    .portfolio-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .port {
+        margin-left: 55px;
+        padding: 15px;
+        width: 300px;
+        height: 210px;
+    }
+
+    .main-box {
+        height: 0.1px;
+
+    }
+
+    .box-text h5 {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  body {
+        width: 160%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .section-media{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    p{
+
+    }
+ 
+    .title-text {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 3em;
+    }
+
+
+
+}
+
+
+/* -------------------------------- MEDIA 320 ------------------------------- */
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 250%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* -------------------------------- MENU TLF -------------------------------- */
+
+    .contenedor-menu-tlf {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 15px;
+        width: 30%;
+        position: absolute;
+        z-index: 1;
+        margin-top: 80px;
+    }
+
+    .menu-tlf {
+        display: block;
+        margin-left: 45px;
+        list-style: none;
+        line-height: 5em;
+    }
+
+    .menu-tlf-a {
+        margin-top: 40px;
+        color: white;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .menu-tlf-a:hover {
+        color: rgb(192, 182, 182);
+    }
+
+    .contenedor-menu-tlf {
+        display: block;
+    }
+  
+
+    .nav-izquierdo {
+        display: none;
+    }
+
+
+    .title-text {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 2.4em;
+    }
+
+    .nav-derecho {
+        height: 50vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-nav-derecho img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* ---------------------------------- about --------------------------------- */
+
+    .about {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-container {
+        width: 120%;
+        margin-left: 100px;
+        padding-left: 10px;
+
+    }
+
+    .izq {
+        width: 200%;
+        margin-left: 50px;
+        justify-content: center;
+    }
+
+    .about-title {
+        margin-left: 10px;
+        font-size: 8em;
+    }
+
+    .about-text {
+        font-size: 2em;
+    }
+
+    .lenguajes-giran {
+        display: none;
+    }
+
+
+    /* ------------------------------- testimonios ------------------------------ */
+
+    .body-3d {}
+
+
+    /* ------------------------------- My proyects ------------------------------ */
+    .portfolio {
+        height: 160vh;
+    }
+
+
+
+
+
+    /* ------------------------------- contact me ------------------------------- */
+
+    .body-body {
+        height: 160vh;
+    }
+
+
+}
