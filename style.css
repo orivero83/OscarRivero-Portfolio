@@ -973,7 +973,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 120vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -998,7 +998,7 @@ footer {
     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
         height: 120vh;
-        width: 105%;
+        width: 100%;
     }
 
 
@@ -1019,7 +1019,7 @@ footer {
     /* ---------------------------- Start Contact me ---------------------------- */
 
     .body-body {
-        height: 110vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -1030,11 +1030,11 @@ footer {
 
     footer {
         width: 100%;
-        height: 10px;
         position: relative;
         color: black;
         text-align: center;
         z-index: 30;
+        background-color: red;
     }
 
 }
