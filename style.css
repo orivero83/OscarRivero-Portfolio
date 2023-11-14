@@ -877,13 +877,13 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 60vh;
+        height: 80vh;
         width: 100%;
     }
 
 
     .title-text {
-        font-size: 1.7em;
+        font-size: 1.6em;
         align-items: center;
         width: 100%;
     }
@@ -908,9 +908,10 @@ footer {
     }
 
     .heading {
-        height: 2%;
+        height: 20%;
         font-size: 4em;
         width: 100%;
+        
     }
 
     .portfolio-content {
@@ -923,7 +924,7 @@ footer {
     /* ---------------------------- Start Contact me ---------------------------- */
 
     .body-body {
-        height: 110vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -931,24 +932,28 @@ footer {
     .contact-container {
         height: 100%;
         width: 100%;
+        background-color: green;
     }
 
     .section-contact {
         height: 100%;
-        width: 90%;
+        width: 100%;
+        padding-right: 60px;
         
     }
 
     .ul-iconos {
         height: 100%;
-        width: 12%;
+        width: 16%;
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
+        
     }
 
     .li-iconos {
+        
         width: 70%;
     }
 
@@ -973,13 +978,23 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 90vh;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .btn-header{
+        width: 100%;
+        height: 20%
+    }
+
+    .container{
+        height: 80%;
         width: 100%;
     }
 
 
     .title-text {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     /* ----------------------------------- IMG ---------------------------------- */
@@ -1027,14 +1042,19 @@ footer {
         display: none;
     }
 
+    .contact-container{
+        height: 1px;
+        background-color: green;
+    }
 
     footer {
+       
         width: 100%;
         position: relative;
         color: black;
         text-align: center;
         z-index: 30;
-        background-color: red;
+        
     }
 
 }
