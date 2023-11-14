@@ -880,421 +880,152 @@ footer {
     z-index: 30;
 }
 
-/* ---------------------------- Media query 1440 ---------------------------- */
-
-@media screen and (max-width: 1440px) {
-    .about {
-        height: 120vh;
-    }
-
-    .body-3d {
-        height: 130vh;
-
-    }
-
-    .portfolio {
-        height: 190vh;
-    }
-
-    .body-body {
-        height: 150vh;
-    }
-
-    .ul-iconos {
-        margin-bottom: 20px;
-    }
-
-
-}
-
-
-
-
-
-/* ----------------------------- media query 104 ---------------------------- */
-
-
-@media screen and (max-width: 1024px) {
-
-
-    .body-3d {
-        height: 130vh;
-
-    }
-
-    .portfolio {
-        height: 190vh;
-    }
-
-    .body-body {
-        height: 130vh;
-    }
-
-}
-
 
 /* ----------------------------- @media queries ----------------------------- */
-@media screen and (max-width: 768px) {
-    .floatingButton {
-        margin-top: 5.8em;
+
+
+@media screen and (min-width: 378px) and (max-width: 426px) {
+ 
+    .about{
+        display: none;
     }
 
-    .lenguajes-giran {
-        width: 750px;
+    .body-3d {
+        display: none;
     }
 
-    pre {
-        font-size: 12px;
+    .nav-izquierdo {
+        display: none;
     }
 
-
-    /* -------------------------------- about me -------------------------------- */
-
-    .about-title {
-        font-size: 2.4em;
-    }
-
-    .about-container {
-        width: 100%;
-    }
-
-    .izq {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 200px;
-    }
-
-
-    /* ------------------------------- testimonios ------------------------------ */
-
-    .container-3d {
-        margin-left: 50px;
-        width: 30%;
-    }
-
-    .slider {
-        width: 150px;
-    }
-
-    .nombre-3d {
-        font-size: 0.3em;
-    }
-
-
-
-
-    /* ------------------------------- my projects ------------------------------ */
-
-    .portfolio {
-        margin: 0;
-        padding: 0;
-    }
-
-    .portfolio-content {
-        width: 100%;
-        margin: 0;
-    }
-
-    .port {
-        margin-left: 55px;
-        padding: 15px;
-        width: 300px;
-        height: 210px;
-    }
-
-    .main-box {
-        height: 0.1px;
-
-    }
-
-    .box-text h5 {
-        font-size: 15px;
-    }
-
-
-
-}
-
-
-
-
-
-
-/* ----------------------------- MEDIA max 425px and min-width: 321px ---------------------------- */
-
-@media screen and (max-width: 426px) and (min-width: 321px) {
-    body {
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
+/* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media{
-        height: 80vh;
-    }
-    /* -------------------------------- MENU TLF -------------------------------- */
-
-    .contenedor-menu-tlf {
-        display: block;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 15px;
-        width: 50%;
-        position: absolute;
-        z-index: 1;
-        margin-top: 80px;
-    }
-
-    .menu-tlf {
-        display: block;
-        margin-left: 145px;
-        list-style: none;
-        line-height: 5em;
-    }
-
-    .menu-tlf-a {
-        margin-top: 40px;
-        color: white;
-        font-size: 1.5em;
-        text-decoration: none;
-    }
-
-    .menu-tlf-a:hover {
-        color: rgb(192, 182, 182);
-    }
-
-    /* -------------------------------- end MENU TLF -------------------------------- */
-   
-
-
-    .nav-izquierdo {
-        display: none;
-    }
-
-
-    .title-text {
-        width: 42%;
-        margin: 0;
-        padding: 0;
-        font-size: 1.4em;
-    }
-
-    .nav-derecho {
-        height: 80vh;
-        width: 40%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .img-nav-derecho img {
+        height: 120vh;
         width: 100%;
-        margin: 0;
-        padding: 0;
     }
 
 
-    /* ---------------------------------- about --------------------------------- */
+    .title-text{
+        font-size: 1.2em;
+    }
 
-    .about {
+/* ----------------------------------- IMG ---------------------------------- */
+
+    .img-nav-derecho {
+        max-width: 100%;
+        height: 70%;
         display: flex;
         justify-content: center;
-        width: 40%;
-        padding: 0;
-        height: 100vh;
-        
+        align-items: flex-start;
     }
-
-    .about-container {
-        width: 120%;
-        margin-left: 100px;
-        padding-left: 10px;
-        z-index: 2;
-    }
-
-    .izq {
-        width: 200%;
-        margin-left: 50px;
-        justify-content: center;
-    }
-
-    .about-title {
-        margin-left: 10px;
-        font-size: 6.5em;
-    }
-
-    .about-text {
-        font-size: 2em;
-    }
-
-    .lenguajes-giran {
-        display: none;
-    }
+    
+     /* ------------------------------FIN header ----------------------------- */
 
 
-    /* ------------------------------- testimonios ------------------------------ */
-
-    .body-3d{
-        display: none;
-    }
-
-    /* ------------------------------- My proyects ------------------------------ */
+     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
-        height: 100vh;
-        width: 40%;
+        height: 200vh;
+        width: 100%;
     }
 
-    /* ------------------------------- contact me ------------------------------- */
 
-    .body-body {
-        height: 100vh;
-        width: 40%;
+    .heading{
+        height: 2%;
+        font-size: 4em;
+        width: 100%;
     }
 
-    .ul-iconos{
-        width:100%;
+    .portfolio-content{
+        height: 200px;
+        width: 80%;
     }
-
-    .li-iconos{
-        width:40px;
-    }
-
-    footer{
-        width: 40%;
-    }
-   
+    
 
 
+/* ------------------------------ fin Proyectos ----------------------------- */
+/* ---------------------------- Start Contact me ---------------------------- */
 
+.body-body{
+    height: 110vh;
+    width: 100%;
 }
 
 
+   
+}
 
-/* -------------------------------- MEDIA 320 ------------------------------- */
 
-@media screen and (max-width: 320px) {
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+@media screen and (max-width: 377px) {
+
+    
+    .about{
+        display: none;
     }
 
-    /* -------------------------------- MENU TLF -------------------------------- */
-
-    .contenedor-menu-tlf {
-        display: block;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 15px;
-        width: 30%;
-        position: absolute;
-        z-index: 1;
-        margin-top: 80px;
+    .body-3d {
+        display: none;
     }
-
-    .menu-tlf {
-        display: block;
-        margin-left: 45px;
-        list-style: none;
-        line-height: 5em;
-    }
-
-    .menu-tlf-a {
-        margin-top: 40px;
-        color: white;
-        font-size: 1.5em;
-        text-decoration: none;
-    }
-
-    .menu-tlf-a:hover {
-        color: rgb(192, 182, 182);
-    }
-
-    .contenedor-menu-tlf {
-        display: block;
-    }
-
 
     .nav-izquierdo {
         display: none;
     }
 
 
-    .title-text {
+/* --------------------------- Empezamos a editar HEAD--------------------------- */
+    .section-media{
+        height: 120vh;
         width: 100%;
-        margin: 0;
-        padding: 0;
-        font-size: 2.4em;
-    }
-
-    .nav-derecho {
-        height: 50vh;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .img-nav-derecho img {
-        width: 100%;
-        margin: 0;
-        padding: 0;
     }
 
 
-    /* ---------------------------------- about --------------------------------- */
+    .title-text{
+        font-size: 1.2em;
+    }
 
-    .about {
+/* ----------------------------------- IMG ---------------------------------- */
+
+    .img-nav-derecho {
+        max-width: 100%;
+        height: 70%;
         display: flex;
         justify-content: center;
-        width: 100%;
-        padding: 0;
+        align-items: flex-start;
     }
-
-    .about-container {
-        width: 120%;
-        margin-left: 100px;
-        padding-left: 10px;
-
-    }
-
-    .izq {
-        width: 200%;
-        margin-left: 50px;
-        justify-content: center;
-    }
-
-    .about-title {
-        margin-left: 10px;
-        font-size: 8em;
-    }
-
-    .about-text {
-        font-size: 2em;
-    }
-
-    .lenguajes-giran {
-        display: none;
-    }
+    
+     /* ------------------------------FIN header ----------------------------- */
 
 
-    /* ------------------------------- testimonios ------------------------------ */
-
-
-    /* ------------------------------- My proyects ------------------------------ */
+     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
-        height: 160vh;
+        height: 200vh;
+        width: 100%;
     }
 
 
-
-
-
-    /* ------------------------------- contact me ------------------------------- */
-
-    .body-body {
-        height: 160vh;
+    .heading{
+        height: 2%;
+        font-size: 4em;
+        width: 100%;
     }
+
+    .portfolio-content{
+        height: 200px;
+        width: 80%;
+    }
+    
+
+
+/* ------------------------------ fin Proyectos ----------------------------- */
+/* ---------------------------- Start Contact me ---------------------------- */
+
+.body-body{
+    height: 110vh;
+    width: 100%;
+}
+
+.contact-container{
+    display: none;
+}
 
 
 }
