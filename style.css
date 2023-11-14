@@ -291,7 +291,7 @@ p:hover:before {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(./bg2Original.jpg);
-   
+
 }
 
 
@@ -301,7 +301,7 @@ p:hover:before {
 
 
 .ul {
-   
+
     align-items: center;
     height: 120px;
     margin-top: 10px;
@@ -849,6 +849,8 @@ p:hover:before {
 /* --------------------------------- FOOTER --------------------------------- */
 
 footer {
+    width: 100%;
+    height: auto;
     position: relative;
     color: black;
     text-align: center;
@@ -860,8 +862,8 @@ footer {
 
 
 @media screen and (min-width: 378px) and (max-width: 426px) {
- 
-    .about{
+
+    .about {
         display: none;
     }
 
@@ -873,67 +875,90 @@ footer {
         display: none;
     }
 
-/* --------------------------- Empezamos a editar HEAD--------------------------- */
-    .section-media{
-        height: 120vh;
+    /* --------------------------- Empezamos a editar HEAD--------------------------- */
+    .section-media {
+        height: 60vh;
         width: 100%;
     }
 
 
-    .title-text{
-        font-size: 1.2em;
+    .title-text {
+        font-size: 1.7em;
+        align-items: center;
+        width: 100%;
     }
 
-/* ----------------------------------- IMG ---------------------------------- */
+    /* ----------------------------------- IMG ---------------------------------- */
 
     .img-nav-derecho {
         max-width: 100%;
-        height: 70%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
     }
-    
-     /* ------------------------------FIN header ----------------------------- */
+
+    /* ------------------------------FIN header ----------------------------- */
 
 
-     /* ----------------------------- Start Proyectos ---------------------------- */
+    /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
-        height: 200vh;
+        height: 120vh;
         width: 100%;
     }
 
-
-    .heading{
+    .heading {
         height: 2%;
         font-size: 4em;
         width: 100%;
     }
 
-    .portfolio-content{
+    .portfolio-content {
         height: 200px;
-        width: 80%;
+        width: 100%;
     }
-    
 
 
-/* ------------------------------ fin Proyectos ----------------------------- */
-/* ---------------------------- Start Contact me ---------------------------- */
+    /* ------------------------------ fin Proyectos ----------------------------- */
+    /* ---------------------------- Start Contact me ---------------------------- */
 
-.body-body{
-    height: 110vh;
-    width: 100%;
-}
+    .body-body {
+        height: 110vh;
+        width: 100%;
+    }
 
 
-   
+    .contact-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-contact {
+        height: 100%;
+        width: 90%;
+        
+    }
+
+    .ul-iconos {
+        height: 100%;
+        width: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .li-iconos {
+        width: 70%;
+    }
+
 }
 
 
 @media screen and (max-width: 377px) {
 
-    
-    .about{
+
+    .about {
         display: none;
     }
 
@@ -946,18 +971,18 @@ footer {
     }
 
 
-/* --------------------------- Empezamos a editar HEAD--------------------------- */
-    .section-media{
+    /* --------------------------- Empezamos a editar HEAD--------------------------- */
+    .section-media {
         height: 120vh;
         width: 100%;
     }
 
 
-    .title-text{
+    .title-text {
         font-size: 1.2em;
     }
 
-/* ----------------------------------- IMG ---------------------------------- */
+    /* ----------------------------------- IMG ---------------------------------- */
 
     .img-nav-derecho {
         max-width: 100%;
@@ -966,41 +991,41 @@ footer {
         justify-content: center;
         align-items: flex-start;
     }
-    
-     /* ------------------------------FIN header ----------------------------- */
+
+    /* ------------------------------FIN header ----------------------------- */
 
 
-     /* ----------------------------- Start Proyectos ---------------------------- */
+    /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
         height: 200vh;
         width: 100%;
     }
 
 
-    .heading{
+    .heading {
         height: 2%;
         font-size: 4em;
         width: 100%;
     }
 
-    .portfolio-content{
+    .portfolio-content {
         height: 200px;
         width: 80%;
     }
-    
 
 
-/* ------------------------------ fin Proyectos ----------------------------- */
-/* ---------------------------- Start Contact me ---------------------------- */
 
-.body-body{
-    height: 110vh;
-    width: 100%;
-}
+    /* ------------------------------ fin Proyectos ----------------------------- */
+    /* ---------------------------- Start Contact me ---------------------------- */
 
-.contact-container{
-    display: none;
-}
+    .body-body {
+        height: 110vh;
+        width: 100%;
+    }
+
+    .contact-container {
+        display: none;
+    }
 
 
 }
