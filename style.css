@@ -21,37 +21,12 @@ body {
 
 /* --------------------------------- header --------------------------------- */
 
-.contenedor-menu-tlf {
-    display: block;
-}
-
-.menu-tlf-img {
-    background-color: transparent;
-    width: 2em;
-    position: fixed;
-    top: 40px;
-    left: 40px;
-    z-index: 1;
-}
-
-.menu-tlf-img:hover {
-    cursor: pointer;
-}
-
-.menu-tlf {
-    display: none;
-}
-
-
-
 .title-text {
     margin: 20px;
     font-size: 3em;
     align-items: center;
     width: 100%;
 }
-
-
 
 
 /* ------------------------------ BTN translate ----------------------------- */
