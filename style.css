@@ -863,6 +863,12 @@ footer {
 
 @media screen and (min-width: 378px) and (max-width: 426px) {
 
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .about {
         display: none;
     }
@@ -877,7 +883,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 80vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -886,6 +892,7 @@ footer {
         font-size: 1.6em;
         align-items: center;
         width: 100%;
+        
     }
 
     /* ----------------------------------- IMG ---------------------------------- */
@@ -904,19 +911,19 @@ footer {
     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
         height: 120vh;
-        width: 100%;
+        width: 95%;
     }
 
     .heading {
-        height: 20%;
+        height: 10%;
         font-size: 4em;
         width: 100%;
-        
+        z-index: 1;
     }
 
     .portfolio-content {
         height: 200px;
-        width: 100%;
+        width: 80%;
     }
 
 
@@ -926,42 +933,58 @@ footer {
     .body-body {
         height: 90vh;
         width: 100%;
+        background-color: yellow;
     }
 
 
     .contact-container {
-        height: 100%;
+        height: 95%;
         width: 100%;
-        background-color: green;
+        background-color: red;
     }
 
     .section-contact {
-        height: 100%;
-        width: 100%;
-        padding-right: 60px;
-        
+        height: 95%;
+        width: 95%;
+        padding-left: 1px;
     }
 
     .ul-iconos {
         height: 100%;
-        width: 16%;
+        width: 13%;
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
-        
+        margin-right: 15px;
     }
 
     .li-iconos {
-        
-        width: 70%;
+        width: 95%;
+       
     }
+
+    /* --------------------------------- footer --------------------------------- */
+
+    footer {
+        width: 100%;
+        position: relative;
+        color: black;
+        text-align: center;
+        z-index: 30;
+        
+    }
+
 
 }
 
 
 @media screen and (max-width: 377px) {
-
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     .about {
         display: none;
@@ -1013,12 +1036,12 @@ footer {
     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
         height: 120vh;
-        width: 100%;
+        width: 95%;
     }
 
 
     .heading {
-        height: 2%;
+        height: 4%;
         font-size: 4em;
         width: 100%;
     }
@@ -1044,17 +1067,15 @@ footer {
 
     .contact-container{
         height: 1px;
-        background-color: green;
+        background-color: red;
     }
 
     footer {
-       
         width: 100%;
         position: relative;
         color: black;
         text-align: center;
         z-index: 30;
-        
     }
 
 }
