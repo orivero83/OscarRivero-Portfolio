@@ -883,7 +883,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 90vh;
+        height: 80vh;
         width: 100%;
     }
 
@@ -921,13 +921,11 @@ footer {
         font-size: 4em;
         width: 100%;
         z-index: 2;
-        background-color: red;
     }
 
     .portfolio-content {
         height: 200px;
         width: 80%;
-        background-color: red;
     }
 
 
@@ -937,7 +935,6 @@ footer {
     .body-body {
         height: 90vh;
         width: 100%;
-        background-color: yellow;
         padding: 5px;
     }
 
@@ -988,7 +985,6 @@ footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: yellow;
     }
 
     .about {
@@ -1007,22 +1003,19 @@ footer {
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
         height: 100vh;
-        width: 100%;
-
+        width: 96%;
+        margin-left: -11px;
     }
 
     .btn-header {
-        width: 90%;
+        width: 100%;
         height: 20%;
-        background-color: aqua;
-        padding-right: 20px;
     }
 
     .container {
-        height: 80%;
-        width: 90%;
-        background-color: aqua;
-        padding-right: 20px;
+        height: 60%;
+        width: 98%;
+       
     }
 
 
@@ -1034,11 +1027,10 @@ footer {
 
     .img-nav-derecho {
         max-width: 100%;
-        height: 70%;
+        height: 60%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-
     }
 
     /* ------------------------------FIN header ----------------------------- */
@@ -1053,9 +1045,8 @@ footer {
 
 
     .heading {
-        height: 4%;
+        height: 10%;
         font-size: 4em;
-        background-color: green;
     }
 
     .portfolio-content {
@@ -1079,7 +1070,6 @@ footer {
 
     .contact-container {
         height: 1px;
-        background-color: blue;
     }
 
     footer {
