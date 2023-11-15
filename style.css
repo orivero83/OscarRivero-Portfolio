@@ -56,6 +56,9 @@ body {
 
 /* -------------------------------- izquierdo ------------------------------- */
 
+.aboutme-320{
+  display: none;
+}
 
 
 /* ------------------------------- HOME button ------------------------------ */
@@ -861,7 +864,7 @@ footer {
 /* ----------------------------- @media queries ----------------------------- */
 
 
-@media screen and (min-width: 378px) and (max-width: 426px) {
+@media screen and (min-width: 379px) and (max-width: 426px) {
 
     body {
         margin: 0;
@@ -881,6 +884,7 @@ footer {
         display: none;
     }
 
+    
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
         height: 80vh;
@@ -894,6 +898,21 @@ footer {
         width: 100%;
 
     }
+
+    .aboutme-320{
+        display: block;
+        padding: 20px;
+        text-align: center;
+        color: black;
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
 
     /* ----------------------------------- IMG ---------------------------------- */
 
@@ -985,6 +1004,8 @@ footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: 100%;
+        padding: 2px;
     }
 
     .about {
@@ -1004,7 +1025,6 @@ footer {
     .section-media {
         height: 100vh;
         width: 96%;
-        margin-left: -11px;
     }
 
     .btn-header {
@@ -1023,11 +1043,24 @@ footer {
         font-size: 1.4em;
     }
 
+
+    .aboutme-320{
+        display: block;
+        padding: 20px;
+        text-align: center;
+        color: black;
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* ----------------------------------- IMG ---------------------------------- */
 
     .img-nav-derecho {
-        max-width: 100%;
-        height: 60%;
+        max-width: 90%;
+        height: 90%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -1045,8 +1078,11 @@ footer {
 
 
     .heading {
+        padding-top: 50px;
         height: 10%;
         font-size: 4em;
+        color: white;
+        text-shadow: 2 2 10px black;
     }
 
     .portfolio-content {
