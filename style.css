@@ -887,7 +887,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 80vh;
+        height: 75vh;
         width: 100%;
     }
 
@@ -896,7 +896,6 @@ footer {
         font-size: 1.6em;
         align-items: center;
         width: 100%;
-
     }
 
     .aboutme-320 {
@@ -909,7 +908,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
-        margin-top: -50px;
+        margin-top: -15px;
     }
 
 
