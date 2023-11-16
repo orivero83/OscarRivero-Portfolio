@@ -908,7 +908,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
-        margin-top: -5px;
+        
     }
 
 
@@ -959,8 +959,7 @@ footer {
     .port{
         margin-top: 10px;
         height: 100%;
-        background-color: green;
-        width: 110%;
+        width: 100%;
     }
 
 
