@@ -887,7 +887,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 75vh;
+        height: 74vh;
         width: 100%;
     }
 
@@ -908,7 +908,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
-        margin-top: -15px;
+        margin-top: -5px;
     }
 
 
@@ -959,6 +959,8 @@ footer {
     .port{
         margin-top: 10px;
         height: 100%;
+        background-color: green;
+        width: 110%;
     }
 
 
