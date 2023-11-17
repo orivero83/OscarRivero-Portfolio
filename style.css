@@ -1043,7 +1043,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 88vh;
+        height: 80vh;
         width: 100%;
     }
 
@@ -1073,13 +1073,13 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-        height: 74%;
+        height: 54%;
     }
 
 
     .img-nav-derecho {
-        max-width: 100%;
-        height: 100%;
+        max-width: 110%;
+        height: 110%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
