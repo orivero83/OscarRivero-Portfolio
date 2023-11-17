@@ -866,7 +866,9 @@ footer {
 
 @media screen and (min-width: 401px) and (max-width: 426px) {
 
-    body {
+
+    html, body {
+        overflow-x: hidden; 
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1019,7 +1021,8 @@ footer {
 
 @media screen and (min-width: 375px) and (max-width: 400px) {
 
-    body {
+    html, body {
+        overflow-x: hidden; 
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1173,9 +1176,10 @@ footer {
 
 @media screen and (max-width: 374px) {
 
-    body {
+    html, body {
+        overflow-x: hidden; 
         margin: 0;
-        padding: 10px;
+        padding: 3px;
         box-sizing: border-box;
     }
 
@@ -1197,7 +1201,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 85vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -1318,7 +1322,7 @@ footer {
         z-index: 30;
         background-color: #f0f8ff;
         height: 50px;
-        margin-left: 5px;
+        margin-left: 1px;
     }
 
 
