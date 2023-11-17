@@ -1175,7 +1175,7 @@ footer {
 
     body {
         margin: 0;
-        padding: 0;
+        padding: 10px;
         box-sizing: border-box;
     }
 
@@ -1197,7 +1197,7 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 90vh;
+        height: 85vh;
         width: 100%;
     }
 
@@ -1318,7 +1318,7 @@ footer {
         z-index: 30;
         background-color: #f0f8ff;
         height: 50px;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
 
