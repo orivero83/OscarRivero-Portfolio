@@ -864,7 +864,7 @@ footer {
 /* ----------------------------- @media queries ----------------------------- */
 
 
-@media screen and (min-width: 379px) and (max-width: 426px) {
+@media screen and (min-width: 319px) and (max-width: 426px) {
 
     body {
         margin: 0;
@@ -908,7 +908,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
-        
+
     }
 
 
@@ -956,7 +956,7 @@ footer {
         padding-top: 185px;
     }
 
-    .port{
+    .port {
         margin-top: 10px;
         height: 100%;
         width: 100%;
@@ -1014,13 +1014,12 @@ footer {
 }
 
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 318px) {
+
     body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        width: 100%;
-        padding: 2px;
     }
 
     .about {
@@ -1035,48 +1034,49 @@ footer {
         display: none;
     }
 
+    .section-contact {
+        display: none;
+    }
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 100vh;
-        width: 96%;
-        background-color: aqua;
-    }
-
-    .btn-header {
+        height: 74vh;
         width: 100%;
-        height: 5%;
-        padding-right: 30px;
-    }
-
-    .container {
-        height: 60%;
-        width: 98%;
     }
 
 
     .title-text {
-        font-size: 1.4em;
+        font-size: 1.6em;
+        align-items: center;
+        width: 100%;
     }
-
 
     .aboutme-320 {
         display: block;
         padding: 20px;
         text-align: center;
-        color: black;
+        color: white;
         width: 100%;
-        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: black;
+
     }
+
+
+
 
     /* ----------------------------------- IMG ---------------------------------- */
 
+    .container {
+        height: 72%;
+    }
+
+
     .img-nav-derecho {
-        max-width: 95%;
-        height: 90%;
+        max-width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -1087,25 +1087,33 @@ footer {
 
     /* ----------------------------- Start Proyectos ---------------------------- */
     .portfolio {
-        height: 120vh;
+        height: 110vh;
         width: 100%;
-        margin: 1.5px;
+        margin: 1px;
     }
 
-
     .heading {
-        padding-top: 60px;
-        height: 10%;
+        margin-top: 20px;
+        position: absolute;
+        height: 4.5%;
         font-size: 4em;
+        width: 100%;
+        z-index: 2;
         color: white;
-        text-shadow: 2 2 10px black;
+        text-shadow: 2px 2px 10px black;
     }
 
     .portfolio-content {
-        height: 200px;
+        height: 100vh;
         width: 80%;
+        padding-top: 185px;
     }
 
+    .port {
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
 
 
     /* ------------------------------ fin Proyectos ----------------------------- */
@@ -1114,15 +1122,36 @@ footer {
     .body-body {
         height: 90vh;
         width: 100%;
+        padding: 5px;
+    }
+
+
+    .contact-container {
+        height: 95%;
+        width: 100%;
     }
 
     .section-contact {
-        display: none;
+        height: 95%;
+        width: 95%;
+        padding-left: 1px;
     }
 
-    .contact-container {
-        height: 1px;
+    .ul-iconos {
+        height: 100%;
+        width: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-right: 35px;
     }
+
+    .li-iconos {
+        width: 80%;
+    }
+
+    /* --------------------------------- footer --------------------------------- */
 
     footer {
         width: 100%;
@@ -1130,8 +1159,9 @@ footer {
         color: black;
         text-align: center;
         z-index: 30;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        background-color: #f0f8ff;
+        height: 50px;
     }
+
 
 }
