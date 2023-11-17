@@ -1019,7 +1019,7 @@ footer {
 
 /* ------------------------------- Query 400px ------------------------------ */
 
-@media screen and (min-width: 375px) and (max-width: 400px) {
+@media screen and (min-width: 321px) and (max-width: 400px) {
 
     html, body {
         overflow-x: hidden; 
@@ -1174,7 +1174,7 @@ footer {
 
 
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 320px) {
 
     html, body {
         overflow-x: hidden; 
