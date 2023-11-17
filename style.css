@@ -1179,7 +1179,7 @@ footer {
     html, body {
         overflow-x: hidden; 
         margin: 0;
-        padding: 3px;
+        padding-right: 1px;
         box-sizing: border-box;
     }
 
@@ -1322,7 +1322,7 @@ footer {
         z-index: 30;
         background-color: #f0f8ff;
         height: 50px;
-        margin-left: 1px;
+        
     }
 
 
