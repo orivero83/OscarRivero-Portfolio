@@ -1043,15 +1043,20 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 85vh;
+        /* ------------------------------ height: 87vh; ----------------------------- */
+        height: 90vh;
         width: 100%;
+        background-color: red;
     }
 
-
+    .header{
+        background-color: yellow;
+    }
     .title-text {
         font-size: 1.3em;
         align-items: center;
         width: 100%;
+        background-color: green;
     }
 
     .aboutme-320 {
@@ -1065,6 +1070,8 @@ footer {
         align-items: center;
         background-color: black;
         border-radius: 25px;
+        background-color: blue;
+        height: 200px;
     }
 
 
@@ -1073,7 +1080,9 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-        height: 72%;
+        /* ------------------------------ height: 75%; ------------------------------ */
+        height: 50%;
+        
     }
 
 
