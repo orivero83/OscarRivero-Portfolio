@@ -867,8 +867,9 @@ footer {
 @media screen and (min-width: 401px) and (max-width: 426px) {
 
 
-    html, body {
-        overflow-x: hidden; 
+    html,
+    body {
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1021,8 +1022,9 @@ footer {
 
 @media screen and (min-width: 321px) and (max-width: 400px) {
 
-    html, body {
-        overflow-x: hidden; 
+    html,
+    body {
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1043,15 +1045,20 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        /* ------------------------------ height: 87vh; ----------------------------- */
-        height: 90vh;
+        /* ------------------------------ height: 90vh; ----------------------------- */
+        height: 92vh;
         width: 100%;
         background-color: red;
+        /* ----------------------- se agrega margin0 paggin 0 ----------------------- */
+
+        margin: 0;
+        padding: 0;
     }
 
-    .header{
+    .header {
         background-color: yellow;
     }
+
     .title-text {
         font-size: 1.3em;
         align-items: center;
@@ -1071,7 +1078,8 @@ footer {
         background-color: black;
         border-radius: 25px;
         background-color: blue;
-        height: 200px;
+        /* ----------------------------- height: 200px; ----------------------------- */
+        height: 300px;
     }
 
 
@@ -1080,9 +1088,9 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-        /* ------------------------------ height: 75%; ------------------------------ */
-        height: 50%;
-        
+
+        /* ------------------------------ height: 50%; ------------------------------ */
+        height: 65%;
     }
 
 
@@ -1158,7 +1166,7 @@ footer {
         justify-content: center;
         align-items: center;
         align-content: center;
-       margin-right: 10px;
+        margin-right: 10px;
     }
 
     .li-iconos {
@@ -1186,8 +1194,9 @@ footer {
 
 @media screen and (max-width: 320px) {
 
-    html, body {
-        overflow-x: hidden; 
+    html,
+    body {
+        overflow-x: hidden;
         margin: 0;
         padding-right: 1px;
         box-sizing: border-box;
@@ -1332,7 +1341,7 @@ footer {
         z-index: 30;
         background-color: #f0f8ff;
         height: 50px;
-        
+
     }
 
 
