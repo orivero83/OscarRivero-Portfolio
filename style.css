@@ -1051,7 +1051,7 @@ footer {
         width: 100%;
         
 /*  movemos margin -25 pasamos a -10 --------------------------- */
-        margin-left: -25px;
+        margin-left: -15px;
         padding: 0;
     }
 
@@ -1066,7 +1066,7 @@ footer {
 
     .aboutme-320 {
         display: block;
-       
+       position: absolute;
         text-align: center;
         color: white;
         /*  cambiando width 95 a 97 ------------------------ */
@@ -1081,9 +1081,9 @@ footer {
         /* --margin-top de 15 a 12 --------------------------- */
         margin-top: 12px;
         /*  margin left 25 a 26px ----------------------- */
-        margin-left: 27px;
+        margin-left: 17px;
         padding: 20px;
-        z-index: 40;
+        z-index: 50;
     }
 
 
