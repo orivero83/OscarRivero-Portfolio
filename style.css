@@ -1046,11 +1046,11 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-      background-color: rgb(26,21,25);  
+        
         height: 88vh;
         width: 100%;
         
-/*  movemos margin -25 --------------------------- */
+/*  movemos margin -25 pasamos a -10 --------------------------- */
         margin-left: -25px;
         padding: 0;
     }
@@ -1061,6 +1061,7 @@ footer {
         font-size: 1.3em;
         align-items: center;
         width: 100%;
+        margin-left: 46px;
     }
 
     .aboutme-320 {
@@ -1075,12 +1076,12 @@ footer {
         background-color: black;
         border-radius: 25px;
         height: 200px;
-        /* ----- margin de 20 a 10 --------------------------- */
-        margin-top: 10px;
-        /*  agregamos margin left 10px ----------------------- */
+        /* ----- margin de 10 a 15 --------------------------- */
+        margin-top: 15px;
+        /*  margin left 10px ----------------------- */
         margin-left: 25px;
         padding: 20px;
-        z-index: 2;
+        z-index: 4;
     }
 
 
