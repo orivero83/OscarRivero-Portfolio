@@ -1028,6 +1028,7 @@ footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
 
     .about {
@@ -1045,12 +1046,12 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        
+      background-color: rgb(26,21,25);  
         height: 88vh;
         width: 100%;
         
-
-        margin: 0;
+/*  movemos margin -25 --------------------------- */
+        margin-left: -25px;
         padding: 0;
     }
 
@@ -1067,7 +1068,7 @@ footer {
        
         text-align: center;
         color: white;
-        width: 100%;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1076,8 +1077,10 @@ footer {
         height: 200px;
         /* ----- margin de 20 a 10 --------------------------- */
         margin-top: 10px;
+        /*  agregamos margin left 10px ----------------------- */
+        margin-left: 25px;
         padding: 20px;
-        
+        z-index: 2;
     }
 
 
