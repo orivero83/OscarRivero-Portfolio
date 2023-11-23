@@ -1061,7 +1061,7 @@ footer {
         font-size: 1.3em;
         align-items: center;
         width: 100%;
-        margin-left: 46px;
+        margin-left: 41px;
     }
 
     .aboutme-320 {
@@ -1069,19 +1069,20 @@ footer {
        
         text-align: center;
         color: white;
-        width: 95%;
+        /*  cambiando width 95 a 97 ------------------------ */
+        width: 97%;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
         border-radius: 25px;
         height: 200px;
-        /* ----- margin de 10 a 15 --------------------------- */
+        /* ----- margin-top de 10 a 15 --------------------------- */
         margin-top: 15px;
-        /*  margin left 10px ----------------------- */
-        margin-left: 25px;
+        /*  margin left 25 a 26px ----------------------- */
+        margin-left: 26px;
         padding: 20px;
-        z-index: 4;
+        z-index: 20;
     }
 
 
