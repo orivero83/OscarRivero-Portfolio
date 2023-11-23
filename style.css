@@ -1075,10 +1075,10 @@ footer {
         align-items: center;
         background-color: black;
         border-radius: 25px;
-        /*  pasamos de 200 a 210 -------------------------- */
+        /*  pasamos de 200 a 240 -------------------------- */
         height: 240px;
-        /* --margin-bajamos a -25 --------------------------- */
-        margin-top: -25px;
+        /* --margin-bajamos a -40 --------------------------- */
+        margin-top: -40px;
         /*  margin left subimos a 15px ----------------------- */
         margin-left: 15px;
         padding: 20px;
