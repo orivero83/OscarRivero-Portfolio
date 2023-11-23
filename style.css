@@ -1028,7 +1028,7 @@ footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
+
     }
 
     .about {
@@ -1048,13 +1048,13 @@ footer {
     .section-media {
         height: 89vh;
         width: 100%;
-        
-/*  movemos margin -25 pasamos a -10 --------------------------- */
+
+        /*  movemos margin -25 pasamos a -10 --------------------------- */
         margin-left: -15px;
         padding: 0;
     }
 
- 
+
 
     .title-text {
         font-size: 1.3em;
@@ -1065,7 +1065,7 @@ footer {
 
     .aboutme-320 {
         display: block;
-       position: absolute;
+        position: absolute;
         text-align: center;
         color: white;
         /*  cambiando width 95 a 97 ------------------------ */
@@ -1076,14 +1076,14 @@ footer {
         background-color: black;
         border-radius: 25px;
         /*  pasamos de 200 a 210 -------------------------- */
-        height: 210px;
+        height: 240px;
         /* --margin-bajamos a -25 --------------------------- */
         margin-top: -25px;
         /*  margin left subimos a 15px ----------------------- */
         margin-left: 15px;
         padding: 20px;
         z-index: 50;
-        
+
     }
 
 
@@ -1092,7 +1092,7 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-/*  subimos a 66% ----------------------------- */
+        /*  subimos a 66% ----------------------------- */
         height: 66%;
     }
 
@@ -1117,7 +1117,7 @@ footer {
     }
 
     .heading {
-        margin-top: 20px;
+        margin-top: 30px;
         position: absolute;
         height: 4.5%;
         font-size: 4em;
@@ -1137,6 +1137,11 @@ footer {
         margin-top: 10px;
         height: 90%;
         width: 100%;
+        border: 10px inset rgba(240, 236, 236, 0.5);
+        padding: 25px;
+        background: transparent;
+        border-radius: 0.5rem;
+        transition: 0.5s ease all;
     }
 
 
@@ -1149,6 +1154,10 @@ footer {
         padding: 8px;
     }
 
+    .section-section span {
+        font-size: 4em;
+        margin-left: 100px;
+    }
 
     .contact-container {
         height: 95%;
