@@ -1045,9 +1045,9 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        height: 88vh;
+        /* ------------------------------ height: 88vh; ----------------------------- */
+        height: 85vh;
         width: 100%;
-        background-color: red;
         /* ----------------------- se agrega margin0 paggin 0 ----------------------- */
 
         margin: 0;
@@ -1073,7 +1073,6 @@ footer {
         align-items: center;
         background-color: black;
         border-radius: 25px;
-        background-color: blue;
         height: 200px;
         margin-top: 60px;
         /* ----------------------- mejor mantener height 200px ---------------------- */
@@ -1085,7 +1084,8 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-        height: 50%;
+        /* ------------------------------- height: 50%; ------------------------------ */
+        height: 40%;
     }
 
 
