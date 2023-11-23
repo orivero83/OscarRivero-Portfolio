@@ -1046,7 +1046,6 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-    /*  subimos a 89vh ----------------------------- */
         height: 89vh;
         width: 100%;
         
@@ -1078,10 +1077,10 @@ footer {
         border-radius: 25px;
         /*  pasamos de 200 a 210 -------------------------- */
         height: 210px;
-        /* --margin-bajamos a -15 --------------------------- */
-        margin-top: -15px;
-        /*  margin left subimos a 12px ----------------------- */
-        margin-left: 12px;
+        /* --margin-bajamos a -25 --------------------------- */
+        margin-top: -25px;
+        /*  margin left subimos a 15px ----------------------- */
+        margin-left: 15px;
         padding: 20px;
         z-index: 50;
         
@@ -1093,8 +1092,8 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-    /* ------------------------------ subimos a 65% ----------------------------- */
-        height: 65%;
+/*  subimos a 66% ----------------------------- */
+        height: 66%;
     }
 
 
