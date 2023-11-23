@@ -1045,8 +1045,8 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        /* ------------------------------ height: 88vh; ----------------------------- */
-        height: 85vh;
+        
+        height: 88vh;
         width: 100%;
         /* ----------------------- se agrega margin0 paggin 0 ----------------------- */
 
@@ -1075,7 +1075,7 @@ footer {
         border-radius: 25px;
         height: 200px;
         margin-top: 60px;
-        /* ----------------------- mejor mantener height 200px ---------------------- */
+        
     }
 
 
