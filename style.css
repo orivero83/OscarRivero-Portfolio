@@ -1078,12 +1078,13 @@ footer {
         border-radius: 25px;
         /*  pasamos de 200 a 210 -------------------------- */
         height: 210px;
-        /* --margin-pasamos a 0 --------------------------- */
-        margin-top: 0px;
-        /*  margin left pasamos a 16px ----------------------- */
-        margin-left: 16px;
+        /* --margin-bajamos a 10 --------------------------- */
+        margin-top: -10px;
+        /*  margin left bajamos a 10px ----------------------- */
+        margin-left: 10px;
         padding: 20px;
         z-index: 50;
+        
     }
 
 
@@ -1092,8 +1093,8 @@ footer {
     /* ----------------------------------- IMG ---------------------------------- */
 
     .container {
-    /*- subimos de 64 a 63 ------------------------------ */
-        height: 63%;
+    /* ------------------------------ subimos a 65% ----------------------------- */
+        height: 65%;
     }
 
 
