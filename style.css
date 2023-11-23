@@ -1046,8 +1046,8 @@ footer {
 
     /* --------------------------- Empezamos a editar HEAD--------------------------- */
     .section-media {
-        
-        height: 88vh;
+    /*  subimos a 89vh ----------------------------- */
+        height: 89vh;
         width: 100%;
         
 /*  movemos margin -25 pasamos a -10 --------------------------- */
@@ -1078,10 +1078,10 @@ footer {
         border-radius: 25px;
         /*  pasamos de 200 a 210 -------------------------- */
         height: 210px;
-        /* --margin-bajamos a 10 --------------------------- */
-        margin-top: -10px;
-        /*  margin left bajamos a 10px ----------------------- */
-        margin-left: 10px;
+        /* --margin-bajamos a -15 --------------------------- */
+        margin-top: -15px;
+        /*  margin left subimos a 12px ----------------------- */
+        margin-left: 12px;
         padding: 20px;
         z-index: 50;
         
