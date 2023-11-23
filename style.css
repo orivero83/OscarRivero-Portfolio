@@ -1048,8 +1048,6 @@ footer {
     .section-media {
         height: 89vh;
         width: 100%;
-
-        /*  movemos margin -25 pasamos a -10 --------------------------- */
         margin-left: -15px;
         padding: 0;
     }
@@ -1068,7 +1066,6 @@ footer {
         position: absolute;
         text-align: center;
         color: white;
-        /*  cambiando width 95 a 97 ------------------------ */
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1076,9 +1073,9 @@ footer {
         background-color: black;
         border-radius: 25px;
         /*  pasamos de 200 a 240 -------------------------- */
-        height: 240px;
+        height: 245px;
         /* --margin-bajamos a -40 --------------------------- */
-        margin-top: -40px;
+        margin-top: -45px;
         /*  margin left subimos a 15px ----------------------- */
         margin-left: 15px;
         padding: 20px;
