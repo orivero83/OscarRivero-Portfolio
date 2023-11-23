@@ -1070,18 +1070,18 @@ footer {
         text-align: center;
         color: white;
         /*  cambiando width 95 a 97 ------------------------ */
-        width: 99%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
         border-radius: 25px;
-        
-        height: 200px;
-        /* --margin-top de 15 a 12 --------------------------- */
-        margin-top: 2px;
-        /*  margin left 25 a 26px ----------------------- */
-        margin-left: 17px;
+        /*  pasamos de 200 a 210 -------------------------- */
+        height: 210px;
+        /* --margin-pasamos a 0 --------------------------- */
+        margin-top: 0px;
+        /*  margin left pasamos a 16px ----------------------- */
+        margin-left: 16px;
         padding: 20px;
         z-index: 50;
     }
