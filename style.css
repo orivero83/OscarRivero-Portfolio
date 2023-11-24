@@ -1071,11 +1071,11 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
-        border-radius: 25px;
-        /*  pasamos de 200 a 245 -------------------------- */
+        /* -------------------------- border-radius: 25px; -------------------------- */
+        /* 250 a 252  -------------------------- */
         height: 252px;
         /* --margin-bajamos a -40 --------------------------- */
-        margin-top: -45px;
+        margin-top: -43px;
         /*  margin left subimos a 15px ----------------------- */
         margin-left: 15px;
         padding: 20px;
