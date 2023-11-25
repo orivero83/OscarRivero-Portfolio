@@ -1,7 +1,7 @@
   // JavaScript para mostrar el botón en una altura específica
   window.addEventListener('scroll', function() {
     var boton = document.querySelector('.floatingButton');
-    var alturaEspecifica = 900; // Cambia esta altura según tus necesidades
+    var alturaEspecifica = 750; // Cambia esta altura según tus necesidades
 
     if (window.scrollY >= alturaEspecifica) {
         boton.style.display = 'block';
